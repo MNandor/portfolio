@@ -1,4 +1,4 @@
-// PLACEHOLDER CONTENT — replace with your real details.
+// Intro sentences below are still placeholders pending copy discussion.
 
 export interface SidePanelData {
   id: 'languages' | 'security'
@@ -14,9 +14,12 @@ export const languagesPanel: SidePanelData = {
   title: 'Language Learning',
   intro: 'A sentence or two on why you learn languages and how seriously you take it.',
   items: [
-    { title: 'Language One', detail: 'Level, and how you use or practice it.' },
-    { title: 'Language Two', detail: 'Level, and how you use or practice it.' },
-    { title: 'Language Three', detail: 'Level, and how you use or practice it.' },
+    { title: 'Hungarian', detail: 'Native' },
+    { title: 'English', detail: 'Advanced' },
+    { title: 'German', detail: 'Intermediate' },
+    { title: 'Romanian', detail: 'Intermediate' },
+    { title: 'Swedish', detail: 'Beginner' },
+    { title: 'Japanese', detail: 'Beginner' },
   ],
 }
 
@@ -26,8 +29,14 @@ export const securityPanel: SidePanelData = {
   title: 'Cybersecurity',
   intro: 'A sentence or two on what draws you to security and at what depth you engage with it.',
   items: [
-    { title: 'CTFs / Challenges', detail: 'Platforms you use, notable results.' },
-    { title: 'Certifications', detail: 'Anything in progress or completed.' },
-    { title: 'A project or writeup', detail: 'Something concrete you can point to.' },
+    {
+      title: 'Android Reverse Engineering — Cognizant',
+      detail:
+        'Analyzed apps submitted to the Play Store for malware with Google, using decompilation and static/dynamic analysis — 100% correct classification across 76 apps after training.',
+    },
+    {
+      title: 'Vulnerability Remediation — Accenture',
+      detail: 'Identified and fixed vulnerabilities in production apps, including Log4j.',
+    },
   ],
 }

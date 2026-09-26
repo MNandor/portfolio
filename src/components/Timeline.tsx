@@ -16,6 +16,15 @@ export function Timeline({ heading, entries }: { heading: string; entries: Timel
               </div>
               <p className="timeline-org">{entry.org}</p>
               <p className="timeline-summary">{entry.summary}</p>
+              {entry.tags && entry.tags.length > 0 && (
+                <div className="timeline-tags">
+                  {entry.tags.map((tag) => (
+                    <span className="project-tag" key={tag}>
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
               {entry.highlights.length > 0 && (
                 <ul className="timeline-highlights">
                   {entry.highlights.map((h) => (

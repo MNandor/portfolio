@@ -77,3 +77,10 @@
 .timeline-highlights li {
   margin-bottom: 0.25rem;
 }
+
+.timeline-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}

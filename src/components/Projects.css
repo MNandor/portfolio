@@ -1,0 +1,50 @@
+.projects-section {
+  padding-block: 3rem;
+  border-top: 1px solid var(--line);
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-row {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-row:last-child {
+  border-bottom: none;
+}
+
+.project-heading h3 {
+  font-size: 1.1rem;
+}
+
+.project-heading a {
+  text-decoration: none;
+}
+
+.project-heading a:hover {
+  color: var(--accent-dev);
+}
+
+.project-description {
+  margin: 0.5rem 0 0.75rem;
+  color: var(--paper-dim);
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tag {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  color: var(--paper-dim);
+}

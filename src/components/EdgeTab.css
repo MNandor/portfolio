@@ -1,0 +1,45 @@
+.edge-tab {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: var(--edge-tab-w);
+  background: var(--ink-raised);
+  border: none;
+  border-inline: 1px solid var(--line);
+  color: var(--tab-accent);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.25s ease, background 0.25s ease;
+}
+
+.edge-tab:hover,
+.edge-tab:focus-visible {
+  width: calc(var(--edge-tab-w) + 0.4rem);
+  background: var(--ink);
+}
+
+.edge-tab-left {
+  left: 0;
+}
+
+.edge-tab-right {
+  right: 0;
+}
+
+.edge-tab-label {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+
+.edge-tab-left .edge-tab-label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.edge-tab-right .edge-tab-label {
+  writing-mode: vertical-rl;
+}

@@ -1,0 +1,22 @@
+.stack-section {
+  padding-block: 3rem 5rem;
+  border-top: 1px solid var(--line);
+}
+
+.stack-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stack-group-label {
+  font-size: 0.95rem;
+  color: var(--paper-dim);
+  margin-bottom: 0.75rem;
+}
+
+.stack-group-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

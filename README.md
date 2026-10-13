@@ -33,4 +33,4 @@ Replace the placeholder strings there; you don't need to touch any component cod
 
 A GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys automatically on every push to `main`.
 
-One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. After that, pushes to `main` will publish to `https://mnandor.github.io/portfolio/`.
+One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. After that, pushes to `main` will publish to `https://nandor.pro/`.
